@@ -1,0 +1,56 @@
+.header  { 
+	background: url('../images/header.jpg') no-repeat;
+	height: 685px;
+	font: 16px/28px $about;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	color: white;
+	text-align: center;	
+
+	&__nav { 
+		padding-top: 50px;
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__pic { 
+		width: 110px;
+	}
+
+	&__title { 
+		padding-top: 100px;
+		font: 300 35px/70px $text;
+		text-transform: uppercase;
+		letter-spacing: 7px;	
+	}
+
+	&__about { 
+		padding-top: 30px;
+		letter-spacing: 1px;
+	}
+}
+
+.menu { 
+	display: flex;
+	justify-content: space-between;
+
+	&__sections {
+		padding: 9px 23px;
+		margin-right: 8px;
+		border: 1px solid transparent;
+		border-radius: 30px;
+	}
+
+	&__link {
+		color: #ffffff; 
+		text-decoration: none;
+	}
+}
+	.pic--logo { 
+		fill: white;
+		width: 130px;
+		height: 30px; 
+	}

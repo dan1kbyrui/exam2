@@ -1,0 +1,32 @@
+.team { 
+
+	&__slide { 
+		display: flex!important;
+		justify-content: space-around;
+
+	 }
+	   	 &__text { 
+	 width: 30%;
+	 text-align: right;
+	  }
+
+	    
+	   &__sltitle {
+	   	font: 20px/25px $about;
+		letter-spacing: 1px;
+
+	   } 
+	   &__position { 
+	   	padding-top: 7px;
+	   	font: 300 14px/25px $text;
+	   	text-transform: uppercase;
+	   	letter-spacing: 2px;
+	   	font-style: italic;
+	   	color: $darkgrey;
+	    } 
+	    &__description {
+	    	padding-top: 25px;
+	    	font: 14px/25px $about;
+	    	color: $darkgrey;
+	}
+ }
